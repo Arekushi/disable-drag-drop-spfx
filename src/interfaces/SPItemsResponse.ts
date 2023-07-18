@@ -1,4 +1,4 @@
-export interface GetItemsResponse {
+export interface SPItemsResponse {
     '@odata.context': string;
     value: unknown[]
 }

@@ -3,7 +3,7 @@ import {
     // SPHttpClientConfiguration,
     ISPHttpClientOptions,
 } from "@microsoft/sp-http";
-import { GetItemsResponse } from "../interfaces/GetItemsResponse";
+import { SPItemsResponse } from "../interfaces/SPItemsResponse";
 
 export class ListService {
     private readonly listTitle: string;
@@ -22,7 +22,7 @@ export class ListService {
 
     public async getListItems(
         filter: string = ""
-    ): Promise<GetItemsResponse> {
+    ): Promise<SPItemsResponse> {
         const url = `${this.siteUrl}/_api/web/lists/getbytitle('${this.listTitle}')/items?${filter}`;
         const requestOptions: ISPHttpClientOptions = {
             headers: {
