@@ -1,0 +1,22 @@
+{
+    "@microsoft/generator-sharepoint": {
+        "plusBeta": false,
+        "isCreatingSolution": false,
+        "nodeVersion": "16.13.0",
+        "sdksVersions": {
+            "@microsoft/microsoft-graph-client": "3.0.2",
+            "@microsoft/teams-js": "2.9.1"
+        },
+        "version": "1.17.4",
+        "libraryName": "disable-drag-drop",
+        "libraryId": "0444cf7b-605d-410a-a63f-3ede28db066a",
+        "environment": "spo",
+        "packageManager": "npm",
+        "solutionName": "disable-drag-drop",
+        "solutionShortDescription": "disable-drag-drop description",
+        "skipFeatureDeployment": true,
+        "isDomainIsolated": false,
+        "componentType": "extension",
+        "extensionType": "ApplicationCustomizer"
+    }
+}

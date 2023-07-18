@@ -1,0 +1,46 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution": {
+        "name": "disable-drag-drop-client-side-solution",
+        "id": "0444cf7b-605d-410a-a63f-3ede28db066a",
+        "version": "1.0.0.0",
+        "includeClientSideAssets": true,
+        "skipFeatureDeployment": true,
+        "isDomainIsolated": false,
+        "developer": {
+            "name": "",
+            "websiteUrl": "",
+            "privacyUrl": "",
+            "termsOfUseUrl": "",
+            "mpnId": "Undefined-1.17.4"
+        },
+        "metadata": {
+            "shortDescription": {
+                "default": "Aplicação que desativa o recurso de drag and drop de arquivos em determinadas bibliotecas no Sharepoint."
+            },
+            "longDescription": {
+                "default": "Aplicação feita em SPFx, com o objetivo de desativar a ação de 'arrastar e soltar' arquivos em bibliotecas específicas em um site no Sharepoint, baseado em uma lista com nomes das bibliotecas."
+            },
+            "screenshotPaths": [],
+            "videoUrl": "",
+            "categories": []
+        },
+        "features": [
+            {
+                "title": "Application Extension - Deployment of custom action",
+                "description": "Deploys a custom action with ClientSideComponentId association",
+                "id": "dc68d0bf-a57b-42de-a849-13ad72a67494",
+                "version": "1.0.0.0",
+                "assets": {
+                    "elementManifests": [
+                        "elements.xml",
+                        "ClientSideInstance.xml"
+                    ]
+                }
+            }
+        ]
+    },
+    "paths": {
+        "zippedPackage": "solution/disable-drag-drop.sppkg"
+    }
+}

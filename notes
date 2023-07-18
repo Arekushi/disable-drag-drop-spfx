@@ -1,0 +1,1 @@
+https://s4r.sharepoint.com/sites/Learning/_api/web/lists/getbytitle('Bibliotecas:%20Recursos%20Limitados')/items?$filter=RecursoDesabilitado eq 'Drag and Drop' and Title eq 'Documentos'

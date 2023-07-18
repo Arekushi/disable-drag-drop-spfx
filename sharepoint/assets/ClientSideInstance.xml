@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentProperties
+        Title="DragDropDeactivator"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="090ab92c-c45a-400c-ada5-6da786bf91f9" />
+</Elements>

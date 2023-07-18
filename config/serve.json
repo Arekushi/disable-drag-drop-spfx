@@ -1,0 +1,31 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+    "port": 4321,
+    "https": true,
+    "serveConfigurations": {
+        "default": {
+            "pageUrl": "https://s4r.sharepoint.com/sites/Learning/Documentos%20Partilhados/Forms/AllItems.aspx",
+            "customActions": {
+                "090ab92c-c45a-400c-ada5-6da786bf91f9": {
+                    "location": "ClientSideExtension.ApplicationCustomizer",
+                    "properties": {
+                        "listName": "Bibliotecas: Recursos Limitados",
+                        "resourceName": "Drag and Drop"
+                    }
+                }
+            }
+        },
+        "dragDropDeactivator": {
+            "pageUrl": "https://s4r.sharepoint.com/sites/Learning/Documentos%20Partilhados/Forms/AllItems.aspx",
+            "customActions": {
+                "090ab92c-c45a-400c-ada5-6da786bf91f9": {
+                    "location": "ClientSideExtension.ApplicationCustomizer",
+                    "properties": {
+                        "listName": "Bibliotecas: Recursos Limitados",
+                        "resourceName": "Drag and Drop"
+                    }
+                }
+            }
+        }
+    }
+}
