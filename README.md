@@ -1,10 +1,8 @@
-# disable-drag-drop
+# Drag and Drop Deactivator
 
-## Summary
+## About (PT-BR)
 
-Short summary on functionality and used technologies.
-
-[picture of the solution in action, if possible]
+Documento explicativo sobre a implementação e problemática: https://arekushi.notion.site/SPFx-Disable-Drag-and-Drop-777b26aff9984981b4bd06ebb2fab29e?pvs=4
 
 ## Used SharePoint Framework Version
 
